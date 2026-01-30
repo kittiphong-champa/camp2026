@@ -1,0 +1,23 @@
+timeout_10s: 10s
+category_check_list: ['Beauty Hall','Women','Men','Sports','Power Mall','Watch','Kids Planet','Betrend','The Living','Gourmet']
+category_page: 
+  Beauty Hall: Beauty Hall
+  Women: Women
+  Men: Men
+  Sports: Sports
+  Power Mall: Power Mall
+  Watch: Watch
+  Kids Planet: Kids Planet
+  Betrend: Betrend
+  The Living: The Living
+  Gourmet: Gourmet
+language: 
+  TH: ภาษาไทย
+  EN: English
+category: 
+  TH: หมวดหมู่สินค้า
+  EN: Categories
+current_url:
+  TH: https://gourmetmarketthailand.com/th
+  EN: https://gourmetmarketthailand.com/en
+logo: /images/navbar/logo-gourmetmarketthailand.svg

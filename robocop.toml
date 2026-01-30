@@ -1,0 +1,26 @@
+[tool.robocop.lint]
+ignore = [
+    "SPC01", # trailing-whitespace - มี whitespace ท้ายบรรทัด
+    "SPC02", # missing-trailing-blank-line - ไม่มี blank line ท้ายไฟล์
+    "SPC03", # invalid-number-of-empty-lines - จำนวน empty lines ผิด
+    "DOC01", # missing-doc-keyword - ไม่มี documentation ใน keyword
+    "VAR02", # unused-variable - Variable ไม่ได้ใช้งาน
+    "ARG01", # unused-argument - Argument ไม่ได้ใช้งาน
+    "DUP03", # duplicated-variable - Variable ซ้ำกัน
+    "DOC02",
+    "DOC03",
+    "MISC06",
+    "NAME08"
+
+]
+
+extend-select = [
+    "NAME07",  # not-capitalized-test-case-title - Test case ต้องขึ้นต้นด้วยตัวใหญ่
+    "ERR01"    # parsing-error - Syntax error
+]
+
+configure = [
+    "NAME02.convention=first_word_capitalized",  # Keyword definition: Test keywords ✓, Test Keywords ✗
+    "NAME18.convention=first_word_capitalized",  # Keyword call: Log to console ✓, Log To Console ✗
+    "NAME07.severity=E"         # Test case ไม่ขึ้นต้นตัวใหญ่ = Error
+]
